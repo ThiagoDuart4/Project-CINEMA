@@ -1,0 +1,76 @@
+main{
+    width: 100%;
+   height: 100%;
+}
+
+main .filmes {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+padding-bottom: 100px;
+align-items: center;
+}
+
+main .filmes .filme{
+    width: 80%;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 0px;
+   background-color: rgb(97, 97, 97);
+   border-radius:10px ;
+
+}
+
+main .filmes .filme .text-filmes{
+    margin-left: 20px;
+}
+
+
+
+main .filmes .filme img{
+    width: 150px;
+    border-radius:10px ;
+}
+
+
+main .filmes .filme h1{
+    margin-bottom: 10px;
+  
+   
+}
+
+main .filmes .filme h5{
+    font-size: 0.8em; 
+    color: rgba(192, 56, 6, 0.685);
+    font-weight: 500;
+    
+}
+
+main .filmes .filme h4{
+    font-size: 0.6em;
+    margin-bottom: 10px;
+}
+
+main .filmes .filme span{
+   
+    font-size: 0.6em;
+}
+
+
+main .filmes .filme p {
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 0.6em;
+    width: 80%;
+}
+
+
+.edit-btn{
+    
+   
+ 
+}
+
+

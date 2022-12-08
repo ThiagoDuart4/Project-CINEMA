@@ -1,0 +1,15 @@
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+
+header .logo{
+    color:orangered;
+    position: relative;
+    left: -200px;
+    font-size: 0.6em;
+}
