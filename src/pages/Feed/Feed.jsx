@@ -5,6 +5,8 @@ import Footer from "../../Components/Footer/Footer";
 import HeaderMain from "../../Components/HeaderMain/HeaderMain";
 import api from "../../services/Api";
 import { useEffect, useState } from "react";
+import close from "../../Images/close.png";
+import edit from"../../Images/editing.png";
 
 
 
@@ -32,14 +34,18 @@ function Feed() {
       setPosts(post.filter(post =>post.id !== id))
    }
 
-   console.log(post)
+
 
    return (
       <div className="container">
-         <HeaderMain></HeaderMain>
          <main>
 
+         <HeaderMain></HeaderMain>
+
             <div className="filmes">
+
+
+
                {
                   post.map((post, key) => {
 
@@ -62,9 +68,9 @@ function Feed() {
                               {post.sinopse}
                            </p>
 
-                           <Link to="/edit"  className="edit-btn"> <button>Edit</button></Link>
+                           <Link to="/edit"  className="edit-btn"> <img src={edit}></img></Link>
                            
-                           <button  className="Delete-btn" onClick={() => deleteFilmes(post.id)}>delete</button>
+                           <img  src={close} className="Delete-btn" onClick={() => deleteFilmes(post.id)}></img>
                         </section>
                      
 

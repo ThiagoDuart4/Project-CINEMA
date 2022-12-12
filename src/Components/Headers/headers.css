@@ -1,8 +1,10 @@
 header{
     width: 100%;
-   
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-    align-items: center;
+ 
+
+}
+
+.btn-header img{
+    position: relative;
+    right: 500px;
 }

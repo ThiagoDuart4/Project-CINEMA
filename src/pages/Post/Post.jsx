@@ -41,7 +41,7 @@ const addPost =  inputValue =>api.post("https://test-api-fawn.vercel.app/filmes"
 })
 .catch(() => {
   console.log("DEU ERRADO")
-  navigate('/')
+  navigate('/feed')
 })
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import  "../../Components/Headers/headers.css";
+import voltar from  "../../Images/voltar.png"
 function Header() {
 
     return(
@@ -9,7 +10,7 @@ function Header() {
 
             <div className="btn-header">
                 <Link to="/">
-                        <button>Voltar Feed</button>
+                        <img src={voltar}></img>
                 </Link>
             </div>
         </header>

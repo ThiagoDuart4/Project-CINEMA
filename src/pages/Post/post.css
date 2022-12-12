@@ -16,7 +16,7 @@ main{
 
  .caixa-input{
     width: 500px;
-    height: 800px;
+    height: 850px;
     align-items: center;
     margin-top: -200px;
     background-color:  rgb(97, 97, 97);
@@ -44,7 +44,37 @@ main{
     padding: 10px;
   border: none;
   outline: none;
-  border-radius:  8px; ;
+  border-radius:  8px; 
+  margin-left: 10px;
+ }
+ .caixa-input .input-post label{
+  color:var(--cor1);
+  font-size: 1.2em;
+ }
+
+ .caixa-input .input-post  textarea{
+  width: 300px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+ }
+
+
+ .caixa-input .btn-enviar {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+ }
+ .caixa-input .btn-enviar button{
+  height:40px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
  }
 
 

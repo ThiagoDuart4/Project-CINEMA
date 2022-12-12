@@ -29,10 +29,17 @@ main .filmes .filme .text-filmes{
 }
 
 
+main .filmes .filme .text-filmes img{
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 
 main .filmes .filme img{
     width: 150px;
     border-radius:10px ;
+    
 }
 
 
@@ -67,10 +74,5 @@ main .filmes .filme p {
 }
 
 
-.edit-btn{
-    
-   
- 
-}
 
 
